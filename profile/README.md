@@ -22,10 +22,10 @@ once you have been whitelisted connect using either:
 
 `ssh -v -N -L 13100:127.0.0.1:13100 -L 13101:127.0.0.1:13101 -L 13102:127.0.0.1:13102 ghidra@lsrv.spdns.org`
 
-or by adding the following to `~/.ssh/config` and connecting with `ssh -N ghidra-tunnel`
+or by adding the following to `~/.ssh/config` and connecting with `ssh -N srep-ghidra`
 
 ```ssh-config
-Host ghidra-tunnel
+Host srep-ghidra
 	HostName lsrv.spdns.org
 	User ghidra
 	LocalForward 13100 127.0.0.1:13100
