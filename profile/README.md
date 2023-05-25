@@ -17,7 +17,7 @@ This the purpose of this Organization is to coordinate efforts towards bulding m
 
 ## Ghidra Project
 
-a Ghidra project server is available, access is currently restricted by SSH key authorization, if you would like acces please contact [@Earthnuker](https://github.com/Earthnuker) to have an account created and your SSH key added.
+a Ghidra project server is available, access is restricted by SSH key authorization, if you would like acces please contact [@Earthnuker](https://github.com/Earthnuker) to have an account created and your SSH key added.
 once you have been whitelisted connect using either:
 
 `ssh -v -N -L 13100:127.0.0.1:13100 -L 13101:127.0.0.1:13101 -L 13102:127.0.0.1:13102 ghidra@lsrv.spdns.org`
