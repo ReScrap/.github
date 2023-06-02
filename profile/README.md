@@ -1,4 +1,4 @@
-# Scrapland Reverse Engineering Project (SREP)
+# Scrapland Reverse Engineering Project (ReScrap)
 
 This the purpose of this Organization is to coordinate efforts towards bulding modding tools for American McGee's Scrapland (developed by MercurySteam) to allow for the creation of User Generated Content, that includes:
 
@@ -11,9 +11,10 @@ This the purpose of this Organization is to coordinate efforts towards bulding m
 
 ## Useful Resources
 
-- [Notes](https://github.com/Scrapland-Reverse-Engineering-Project/Notes) on Engine internals, file formats, etc
-- [ScrapHacks](https://github.com/Scrapland-Reverse-Engineering-Project/ScrapHacks): Kitchen sink repo for file format parsers, network sniffers, tools to poke at the game as it runs, etc
-- [Scrap-Packed-Explorer](https://github.com/Scrapland-Reverse-Engineering-Project/Scrap-Packed-Explorer) GUI and CLI to extract and modify the game's .packed files, developed by [@romibi](https://github.com/romibi) and [@Strongleong](https://github.com/Strongleong)
+- [Notes](https://github.com/ReScrap/Notes) on Engine internals, file formats, etc
+- [ScrapHacks](https://github.com/ReScrap/ScrapHacks): Kitchen sink repo for file format parsers, network sniffers, tools to poke at the game as it runs, etc
+- [Scrap-Packed-Explorer](https://github.com/ReScrap/Scrap-Packed-Explorer) GUI and CLI to extract and modify the game's .packed files, developed by [@romibi](https://github.com/romibi) and [@Strongleong](https://github.com/Strongleong)
+- [Scrapland-Localisation-Tools](https://github.com/ReScrap/Scrapland-Localisation-Tools) tool for decoding and encoding the game's language files to make it easier to fix translations
 
 ## Ghidra Project
 
