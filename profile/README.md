@@ -18,29 +18,15 @@ This the purpose of this Organization is to coordinate efforts towards bulding m
 
 ## Ghidra Project
 
-a Ghidra project server is available, access is restricted by SSH key authorization, if you would like acces please contact [@Earthnuker](https://github.com/Earthnuker) to have an account created and your SSH key added.
-once you have been whitelisted connect using either:
+a Ghidra project server is available, access is managed through [Tailscale](https://tailscale.com/), after being added to the GitHub org log in to the tailscale website using your GitHub account
 
-`ssh -v -N -L 13100:127.0.0.1:13100 -L 13101:127.0.0.1:13101 -L 13102:127.0.0.1:13102 ghidra@lsrv.spdns.org`
+![image](https://github.com/user-attachments/assets/a4000677-95f4-4bbf-91f8-99f31bc71f42)
 
-or by adding the following to `~/.ssh/config` and connecting with `ssh -N srep-ghidra`
+![image](https://github.com/user-attachments/assets/b4068ce8-c212-4e52-85f3-c60c748a396f)
 
-```ssh-config
-Host srep-ghidra
-	HostName lsrv.spdns.org
-	User ghidra
-	LocalForward 13100 127.0.0.1:13100
-	LocalForward 13101 127.0.0.1:13101
-	LocalForward 13102 127.0.0.1:13102
-```
+then pick **rescrap.org.github** when asked to select a network
 
-<!--
+![image](https://github.com/user-attachments/assets/b1bb3898-852f-4558-a66f-79ef252142f7)
 
-**Here are some ideas to get you started:**
+after your account has been approved you should be able to connect to the Ghidra server under the hostname `ghidra`, port 13100
 
-🙋‍♀️ A short introduction - what is your organization all about?
-🌈 Contribution guidelines - how can the community get involved?
-👩‍💻 Useful resources - where can the community find your docs? Is there anything else the community should know?
-🍿 Fun facts - what does your team eat for breakfast?
-🧙 Remember, you can do mighty things with the power of [Markdown](https://docs.github.com/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
--->
