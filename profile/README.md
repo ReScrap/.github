@@ -4,7 +4,7 @@
 
 This the purpose of this Organization is to coordinate efforts towards bulding modding tools for American McGee's Scrapland (developed by MercurySteam) to allow for the creation of User Generated Content, that includes:
 
-- Importers and Exporters for the 3D-Model and animation formats of Maps and Characters
+- Importers and Exporters for the 3D-Model and animation formats of Maps, Objects, Vehicles and Characters
 - Documenting the Python Scripting Interface
 - Documenting how the Game Engine works
 - Documenting the Multiplayer network Protocol to allow for the creation of cross-platform dedicated server software, bots and utilities like a match Replay system and Online leaderboard
