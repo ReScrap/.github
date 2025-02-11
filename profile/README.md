@@ -16,7 +16,7 @@ This the purpose of this Organization is to coordinate efforts towards bulding m
 - [Notes](https://github.com/ReScrap/Notes) on Engine internals, file formats, etc
 - [ScrapHacks](https://github.com/ReScrap/ScrapHacks): Kitchen sink repo for file format parsers, network sniffers, tools to poke at the game as it runs, etc
 - [Scrap-Packed-Explorer](https://github.com/ReScrap/Scrap-Packed-Explorer) GUI and CLI to extract and modify the game's .packed files, developed by [@romibi](https://github.com/romibi) and [@Strongleong](https://github.com/Strongleong)
-- [Scrapland-Localisation-Tools](https://github.com/ReScrap/Scrapland-Localisation-Tools) tool for decoding and encoding the game's language files to make it easier to fix translations (by [@Strongleong](https://github.com/Strongleong))
+- [Localizer](https://github.com/ReScrap/Localizer) tool for decoding and encoding the game's language files to make it easier to fix translations (by [@Strongleong](https://github.com/Strongleong))
 
 ## Ghidra Project
 
